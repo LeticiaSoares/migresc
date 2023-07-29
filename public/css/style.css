@@ -70,6 +70,10 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+.group-photos img {
+    display: block;
+    width: 100%;
+}
 /* Navigation */
 #menu {
   padding: 10px;
@@ -79,6 +83,9 @@ hr {
   background-color: #45A1BA;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.services-box{
+   display: flex;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -356,6 +363,9 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+#cultos {
+  padding: 100px 0;
+}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -465,6 +475,7 @@ header .intro-text {
   background: linear-gradient(to right, #45A1BA 0%, #45A1BA 100%);
   color: rgba(255, 255, 255, 0.75);
 }
+
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -562,9 +573,9 @@ label {
   margin-right: 10px;
 }
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  /*border-top: 1px solid rgba(255, 255, 255, 0.15);*/
+  /*padding-top: 50px;*/
+  /*margin-top: 50px;*/
   text-align: center;
 }
 #contact .social ul li {

@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top' style={{color: '#ffffff'}}>
-            MIGRESC
+            IEPEM
           </a>{' '}
         </div>
 
@@ -57,8 +57,13 @@ export const Navigation = (props) => {
             {/*  </a>*/}
             {/*</li>*/}
             <li>
-              <a href='#contact' className='page-scroll'>
-                Contato
+              <a target="_blank" href='https://www.instagram.com/iepermelino/' className='page-scroll'>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href='https://www.youtube.com/@iepemmigresc782' className='page-scroll'>
+                Youtube
               </a>
             </li>
           </ul>
