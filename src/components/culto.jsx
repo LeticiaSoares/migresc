@@ -16,7 +16,7 @@ export const Cultos = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                    href='img/portfolio/cultoLouvor.jpeg'
+                    href='img/louvor.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -24,7 +24,7 @@ export const Cultos = (props) => {
                       <h4>Culto de Adoração</h4>
                     </div>
                     <img
-                      src='img/portfolio/cultoLouvor.jpeg'
+                      src='img/louvor.jpeg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
