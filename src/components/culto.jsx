@@ -16,7 +16,7 @@ export const Cultos = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                    href='img/louvor.jpeg'
+                    // href='img/louvor.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -37,7 +37,7 @@ export const Cultos = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/livro.jpeg'
+                      // href='img/portfolio/livro.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >
@@ -58,7 +58,7 @@ export const Cultos = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/encontro.jpeg'
+                      // href='img/portfolio/encontro.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >

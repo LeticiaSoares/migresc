@@ -16,7 +16,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                    href='img/portfolio/cordeirinhos.jpeg'
+                    // href='img/portfolio/cordeirinhos.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -37,7 +37,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/soldados.jpeg'
+                      // href='img/portfolio/soldados.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >
@@ -58,7 +58,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/videiras.jpeg'
+                      // href='img/portfolio/videiras.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >
@@ -79,7 +79,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/semeadores.jpeg'
+                      // href='img/portfolio/semeadores.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >
@@ -100,7 +100,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/jovens.jpeg'
+                      // href='img/portfolio/jovens.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >
@@ -121,7 +121,7 @@ export const Ebd = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a className="group-photos"
-                      href='img/portfolio/adultos.jpeg'
+                      // href='img/portfolio/adultos.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                   >

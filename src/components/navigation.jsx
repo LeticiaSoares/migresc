@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
+import classNames from 'classNames'
 export const Navigation = (props) => {
+  const handleOnclick = (anchor)=>{
+    const myDiv = document.getElementById('bs-example-navbar-collapse-1');
+    myDiv.classList.remove('in');
+    window.location.href = window.location.pathname + anchor
+  }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
           <button
             type='button'
-            className='navbar-toggle collapsed'
+            className={classNames('navbar-toggle')}
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
@@ -26,23 +32,18 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            {/*<li>*/}
-            {/*  <a href='#features' className='page-scroll'>*/}
-            {/*    Programação*/}
-            {/*  </a>*/}
-            {/*</li>*/}
             <li>
-              <a href='#about' className='page-scroll'>
+              <a  className='page-scroll' onClick={()=>handleOnclick('#about')}>
                 Quem Somos
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a className='page-scroll'  onClick={()=>handleOnclick('#services')}>
                 Nossos Cultos
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a className='page-scroll' onClick={()=>handleOnclick('#portfolio')}>
                 Galeria
               </a>
             </li>
