@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import classNames from 'classNames'
 export const Navigation = (props) => {
   const handleOnclick = (anchor)=>{
     const myDiv = document.getElementById('bs-example-navbar-collapse-1');
@@ -12,7 +11,7 @@ export const Navigation = (props) => {
         <div className='navbar-header'>
           <button
             type='button'
-            className={classNames('navbar-toggle')}
+            className='navbar-toggle'
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
@@ -47,16 +46,6 @@ export const Navigation = (props) => {
                 Galeria
               </a>
             </li>
-            {/*<li>*/}
-            {/*  <a href='#testimonials' className='page-scroll'>*/}
-            {/*    Vídeos*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*<li>*/}
-            {/*  <a href='#team' className='page-scroll'>*/}
-            {/*    Team*/}
-            {/*  </a>*/}
-            {/*</li>*/}
             <li>
               <a target="_blank" href='https://www.instagram.com/iepermelino/' className='page-scroll'>
                 Instagram

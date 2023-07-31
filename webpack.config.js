@@ -33,6 +33,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
+    port:8181,
     contentBase: path.resolve(__dirname, './public'),
     historyApiFallback: true
   }
